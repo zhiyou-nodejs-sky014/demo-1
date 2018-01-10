@@ -1,0 +1,12 @@
+<table class="table table-bordered table-hover" id="bg">
+    <tr class="active">
+        <th>用户名</th>
+        <th>密码</th>
+    </tr>
+    {{each aa user}}
+    <tr>
+        <th>{{user.username}}</th>
+        <th>{{user.password}}</th>
+    </tr>
+    {{/each}}
+</table>
