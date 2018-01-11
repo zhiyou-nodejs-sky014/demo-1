@@ -11,7 +11,7 @@ $('form').submit(function(event){
     })
 })
 $('.navbar-bodyer').click(function(){
-    location.href='index.html'
+    location.href='tt.html'
 })
 $('.navbar-footer').click(function(){
     location.href='home.html'
